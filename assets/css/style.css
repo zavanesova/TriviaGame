@@ -1,0 +1,42 @@
+body{
+    background-image: url("../images/centralperk.jpg");
+}
+img{
+    margin-top: 25px;
+}
+.title{
+    color: black;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 55px;
+}
+h1{
+    color: #9e1118;
+    font-family: 'Bitter', serif; 
+    font-size: 60px;
+    text-shadow: 3px 3px 8px black;
+
+}
+#start{
+    background-color: #d8d4d4;
+    color: black;
+    border: 3px solid black; 
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 40px;
+    border-radius: 0px;
+    padding: 0px 10px 0px 10px;
+}
+.questions{
+    color: #f4efef;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+#correct-answers,
+#incorrect-answers,
+#unanswered{
+    padding-top: 30px;
+    color: #f4efef;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
