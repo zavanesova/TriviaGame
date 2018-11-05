@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Friends Trivia Game </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.vmin.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+    
+</head>
+<body>
+    <h1>Friends Trivia</h1>
+    <p id="time-left"></p>
+    <button id = "start" type="button" class="btn btn-primary">Start</button>
+    <div class="questions">
+        <p id="question1" value="1994">What year did the show first air?</p>
+        <form>
+            <input type="radio" name="year" onclick="check1();" value="1995">1995
+            <input type="radio" name="year" onclick="check1();" value="2001">2001
+            <input type="radio" name="year" onclick="check1();" value="1994">1994
+        </form>
+        <p id="question2" value="paleontologist">What is Ross's occupation?</p>
+        <form>
+            <input type="radio" name="occupation" onclick="check2();" value="paleontologist">Paleontologist
+            <input type="radio" name="occupation" onclick="check2();" value="doctor"> Doctor
+            <input type="radio" name="occupation" onclick="check2();" value="opthalmologist">Opthalmologist
+        </form>
+        <p id="question3">How many sisters does Joey have?</p>
+        <form>
+            <input type="radio" name="occupation" onclick="check3();" value="5">5
+            <input type="radio" name="occupation" onclick="check3();" value="6">6
+            <input type="radio" name="occupation" onclick="check3();" value="7">7
+        </form>
+        <p id="question4">What is Monica and Chandler's surrogate's name?</p>
+        <form>
+            <input type="radio" name="surrogate" onclick="check4();" value="erin">Erin
+            <input type="radio" name="surrogate" onclick="check4();" value="erica">Erica
+            <input type="radio" name="surrogate" onclick="check4();" value="allison">Allison
+        </form>
+        <p id="question5">Which friends have worked at the coffee house?</p>
+        <form>
+            <input type="radio" name="coffee-house" value="joey and phoebe">Joey and Phoebe
+            <input type="radio" name="coffee-house" value="rachel and joey">Rachel and Joey
+            <input type="radio" name="coffee-house" value="Joey, Rachel, and Monica">Joey, Rachel, and Monica
+        </form>
+    </div>
+    <p id ="correct-answers"></p>
+    <p id="incorrect-answers"></p>
+    <p id="unanswered"></p>
+    
+</body>
+</html>
