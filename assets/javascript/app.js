@@ -9,7 +9,7 @@ var intervalId;
 
 function run() {
     clearInterval(intervalId);
-    intervalId = setInterval(decrement, 100);
+    intervalId = setInterval(decrement, 1000);
 };
 
 function decrement() {
